@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Concurrent.dir/objects.a
+C:\w64devkit\bin\ar.exe qc CMakeFiles\Concurrent.dir/objects.a @CMakeFiles\Concurrent.dir\objects1.rsp
+C:\w64devkit\bin\g++.exe -DQT_QML_DEBUG -g -Wl,--whole-archive CMakeFiles\Concurrent.dir/objects.a -Wl,--no-whole-archive -o Concurrent.exe -Wl,--out-implib,libConcurrent.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Concurrent.dir\linkLibs.rsp
